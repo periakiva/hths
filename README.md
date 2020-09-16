@@ -7,8 +7,8 @@ Hi! Here we will assemble some resources and information that will be useful to 
 ``` File > Upload Notebook > Choose File ```
 * Contacts:
 ``` 
-Peri: peri.akiva@rutgers.edu
-Faith: faith.johnson@rutgers.edu
+    Peri: peri.akiva@rutgers.edu
+    Faith: faith.johnson@rutgers.edu
 ```
 
 #### Python background and tutorial
