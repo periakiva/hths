@@ -6,11 +6,58 @@ Hi! Here we will assemble some resources and information that will be useful to 
 * Tutorials will be in the form of jupyer notebooks or google collabs. A jupyter notebook is an interactive file with the extension ```.ipynb```, which allows you to execute lines or blocks of code indepndetly of other blocks. A jupyer notebook file can be loaded into Google Collab by clicking on 
 ``` File > Upload Notebook > Choose File ```
 * Contacts:
-``` Peri: peri.akiva@rutgers.edu
+``` 
+    Peri: peri.akiva@rutgers.edu
     Faith: faith.johnson@rutgers.edu
 ```
 
 #### Python background and tutorial
 
+- [CS231n Python Tutorlal](https://colab.research.google.com/github/cs231n/cs231n.github.io/blob/master/python-colab.ipynb#scrollTo=Nji1_UjYL9fY)
 
 
+#### OpenCV Tutorial
+
+Note that this is a "top-down" learning of the machine learning and OpenCV. It starts by learning the process of how to work through a machine learning pipeline in an end-to-end fashion without going through the heavy mathemtical prerequisites. Generally, the "bottom-up" approach requires covering the math and theory behind those tools which are harder and not necessary for the purpose of this internship. 
+
+##### Setting up the environment for any notebook in the OpenCV tutorial
+- Download this repository to your machine
+- Unzip the folder
+- Go to [Google Colab](colab.research.google.com) and click on ``` File > Upload Notebook > Choose File ``` and select the tutorial you choose to use. 
+- Click on the files icon on the left
+- Right click on the white space, then click on "New Folder", and name it "images"
+- Right click on the images folder and select "Upload"
+- Go to the unzipped repository and select all the images in the images directory.
+- Repeat this process with the "detect" and "videos" folders.
+- There is an option to add the data to your google drive and synch it with colab, which would make it easier in future work. 
+
+###### Section 1: general tools
+- Loading and showing images
+- Drawing shapes on images
+- Adding text to iamges
+- Modifying images
+
+###### Section 2: Edge detection
+- Sobel operator for edge detection
+- Canny edge detection
+
+###### Section 3: Keypoint and Feature Extraction
+- Scale Invariant Feature Transform (SIFT) feature extraction
+- Keypoint detection using SIFT
+- keypoint and feature matching
+
+###### Section 4: Homography and Geometric Transformations
+- Image translation, rotation
+- Affine transformation
+- Homography
+- Homography from SIFT matching
+
+###### Section 5: Face Detection
+- Face Cascade
+
+###### Section 6: Classification
+- SVM
+- Bag of Words
+
+###### Section 7: Tracking
+- Object tracking in videos
