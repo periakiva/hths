@@ -20,6 +20,8 @@ Hi! Here we will assemble some resources and information that will be useful to 
 
 Note that this is a "top-down" learning of the machine learning and OpenCV. It starts by learning the process of how to work through a machine learning pipeline in an end-to-end fashion without going through the heavy mathemtical prerequisites. Generally, the "bottom-up" approach requires covering the math and theory behind those tools which are harder and not necessary for the purpose of this internship. 
 
+You can choose which sections are most relevant to you.
+
 ##### Setting up the environment for any notebook in the OpenCV tutorial
 - Download this repository to your machine
 - Unzip the folder
