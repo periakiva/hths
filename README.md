@@ -63,3 +63,10 @@ You can choose which sections are most relevant to you.
 
 ###### Section 7: Tracking
 - Object tracking in videos
+
+### Useful datasets:
+- https://www.kaggle.com/datasets
+- https://archive.ics.uci.edu/ml/index.php
+- https://datasetsearch.research.google.com
+- https://github.com/awesomedata/awesome-public-datasets
+- https://www.visualdata.io/discovery
