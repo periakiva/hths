@@ -33,6 +33,19 @@ You can choose which sections are most relevant to you.
 - Repeat this process with the "detect" and "videos" folders.
 - There is an option to add the data to your google drive and synch it with colab, which would make it easier in future work. 
 
+##### OpenCV Version Compatability
+- Make sure the OpenCV version is 3.4.2.16
+- OpenCV version can be checked inside the python screen by running this command:
+``` import cv2
+    print(cv2.__version__)
+```
+- Otherwise, include those two lines in the top of the file (before the import statements):
+```
+!pip install opencv-python==3.4.2.16
+!pip install opencv-contrib-python==3.4.2.16
+```
+- Make sure to re-run blocks if you encoutered an error and then re-installed OpenCV
+
 ###### Section 1: general tools
 - Loading and showing images
 - Drawing shapes on images
