@@ -3,6 +3,7 @@ import sys
 import torch
 import numpy as np
 from PIL import Image
+from glob import glob
 
 DATA_TYPES = ['*.png']
 
